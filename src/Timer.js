@@ -11,6 +11,13 @@ class Timer extends Component {
   }
 
   //Your code here
+  shouldComponentUpdate() {
+
+  }
+
+  componentDidUpdate() {
+    
+  }
 
   componentDidMount() {
     this.interval = setInterval(
